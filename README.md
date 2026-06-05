@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=150&section=header&text=m16khb&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Backend%20%26%20Infrastructure&descAlignY=60&descAlign=50" alt="m16khb profile banner" />
-
 # m16khb
 
 에이전트 도구, CLI/MCP 시스템, 백엔드 인프라를 만듭니다.
