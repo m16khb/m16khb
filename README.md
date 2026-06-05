@@ -35,7 +35,7 @@
 
 | 프로젝트 | 설명 |
 | --- | --- |
-| [agent-harness](https://github.com/m16khb/agent-harness) | Personal agent harness for Codex and Claude Code, built around shared CLI/MCP behavior. |
+| [agent-harness](https://github.com/m16khb/agent-harness) | Codex와 Claude Code에서 같은 CLI/MCP 흐름을 쓰기 위한 개인 에이전트 하네스입니다. |
 
 ## 기술 스택
 
