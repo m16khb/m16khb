@@ -1,34 +1,32 @@
 # m16khb
 
-I build backend systems and local AI-agent tooling, with a current focus on Codex, Claude Code, MCP, CLI workflows, and developer automation.
+에이전트 도구, CLI/MCP 시스템, 백엔드 인프라를 만듭니다.
 
-Codex와 Claude Code를 같은 방식으로 다루기 위한 개인 에이전트 하네스와 백엔드 도구를 만들고 있습니다.
+한국어로 일하고 기록하는 것을 선호합니다. 요즘은 Codex와 Claude Code 양쪽에서 같은 방식으로 쓸 수 있는 개발 도구, 긴 작업을 버티는 context compression, 그리고 에이전트가 이전 작업을 잃지 않게 하는 memory system에 관심이 많습니다.
 
-## Current Focus
+## 지금 관심 있는 것
 
-- Portable agent workflows that work across Codex and Claude Code
-- Local-first CLI and MCP tooling with clear policy boundaries
-- Go and TypeScript backend systems
-- Practical automation for commits, reviews, documentation, and verification
+- Codex / Claude Code 공용 에이전트 하네스
+- CLI, MCP, daemon 기반 로컬 자동화
+- 긴 에이전트 작업을 위한 context compression / memory system
+- Go와 TypeScript 기반 백엔드 구조
+- 테스트와 실제 실행 증거를 남기는 개발 흐름
 
-## Selected Work
+## 공개 프로젝트
 
 | Project | What it is |
 | --- | --- |
-| [agent-harness](https://github.com/m16khb/agent-harness) | Personal agent harness for Codex and Claude Code, built around shared CLI/MCP behavior. |
-| [cc-essential](https://github.com/m16khb/cc-essential) | Claude Code plugin utilities for atomic commits and Conventional Commit workflows. |
-| [glm-ensemble](https://github.com/m16khb/glm-ensemble) | Claude Code plugin for multi-agent ensemble experiments. |
-| [go-boilerplate](https://github.com/m16khb/go-boilerplate) | Go/Gin Clean Architecture boilerplate with NestJS-oriented learning notes. |
-| [npm-library](https://github.com/m16khb/npm-library) | TypeScript npm library experiments and shared package work. |
+| [agent-harness](https://github.com/m16khb/agent-harness) | Codex와 Claude Code에서 같이 쓰는 개인 에이전트 하네스 |
+| [headroom](https://github.com/m16khb/headroom) | LLM 입력을 줄이는 token compression library / proxy / MCP server |
+| [claude-mem](https://github.com/m16khb/claude-mem) | 에이전트 세션 사이의 작업 맥락을 이어주는 memory system |
+| [cc-essential](https://github.com/m16khb/cc-essential) | Claude Code용 atomic commit / conventional commit plugin |
+| [mcp-memory-service](https://github.com/m16khb/mcp-memory-service) | semantic search를 지원하는 MCP memory service |
+| [go-boilerplate](https://github.com/m16khb/go-boilerplate) | Go/Gin clean architecture 학습용 boilerplate |
 
-## Tools I Reach For
+## 기술 스택
 
-`Go` · `TypeScript` · `Node.js` · `NestJS` · `Gin` · `MCP` · `GitHub CLI` · `Docker`
+`Go` `TypeScript` `Python` `Node.js` `NestJS` `MCP` `CLI tools` `GitHub Actions`
 
-## Working Style
+## 지금 만드는 방향
 
-I prefer small, reviewable changes with explicit verification. When a tool or workflow becomes repeated, I try to turn it into a reusable command, skill, or plugin instead of leaving it as session-only knowledge.
-
-## Contact
-
-The best way to follow or discuss the work here is through GitHub repositories, issues, and pull requests.
+AI와 함께 개발할 때 실제로 도움이 되는 작은 인프라를 만듭니다. 맥락을 보존하고, 동작을 검증하고, 여러 agent host에서 같은 결과를 내는 도구를 선호합니다.
