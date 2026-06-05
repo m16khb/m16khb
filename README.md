@@ -9,11 +9,6 @@
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=Backend+%26+Infrastructure;NestJS+%2B+Go;Kubernetes+%2B+GitOps" alt="Backend and infrastructure typing banner" />
-
-<br />
-<br />
-
 <img src="https://img.shields.io/badge/Backend-111827?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="Backend" />
 <img src="https://img.shields.io/badge/Infrastructure-0F172A?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Infrastructure" />
 <img src="https://img.shields.io/badge/Agent%20Tooling-181717?style=for-the-badge&logo=github&logoColor=white" alt="Agent Tooling" />
