@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2563EB&height=150&section=header&text=m16khb&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Backend%20%26%20Infrastructure&descAlignY=60&descAlign=50" alt="m16khb profile banner" />
+
 # m16khb
 
 에이전트 도구, CLI/MCP 시스템, 백엔드 인프라를 만듭니다.
@@ -7,6 +9,11 @@
 한국어로 일하고 기록하는 것을 선호합니다.  
 요즘은 AI와 함께 개발할 때 실제로 도움이 되는 작은 인프라와, 운영 가능한 서비스 백엔드를 만들고 있습니다.
 
+<br />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=Backend+%26+Infrastructure;NestJS+%2B+Go;Kubernetes+%2B+GitOps" alt="Backend and infrastructure typing banner" />
+
+<br />
 <br />
 
 <img src="https://img.shields.io/badge/Backend-111827?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="Backend" />
@@ -38,6 +45,10 @@
 | [agent-harness](https://github.com/m16khb/agent-harness) | Codex와 Claude Code에서 같은 CLI/MCP 흐름을 쓰기 위한 개인 에이전트 하네스입니다. |
 
 ## 기술 스택
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m16khb&theme=github_dark" alt="GitHub profile details" />
+</p>
 
 ### Backend & API
 
