@@ -39,10 +39,6 @@
 
 ## 기술 스택
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m16khb&theme=github_dark" alt="GitHub profile details" />
-</p>
-
 ### Backend & API
 
 <p align="center">
