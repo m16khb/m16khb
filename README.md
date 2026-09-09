@@ -35,9 +35,10 @@
 
 | 프로젝트 | 설명 |
 | --- | --- |
-| [agent-harness](https://github.com/m16khb/agent-harness) | Codex, Claude Code, Omo에서 같은 CLI/MCP 흐름을 쓰기 위한 개인 에이전트 하네스입니다. |
-| [galpi](https://github.com/m16khb/galpi) | Apple Silicon Mac에서 회의를 녹음하고, 화자를 구분해 전사하고, AI 회의록까지 정리하는 로컬 우선 데스크톱 앱입니다. |
-| [mota](https://github.com/m16khb/mota) | 서울 버스와 지하철 도착 정보를 지도에서 확인하는 React·NestJS 웹 앱입니다. |
+| [issueops](https://github.com/m16khb-org/issueops) | Codex, Claude Code, Omo에서 이슈 기반 개발 흐름을 실행하는 CLI/MCP 도구입니다. |
+| [galpi](https://github.com/m16khb-org/galpi) | Apple Silicon Mac에서 회의를 녹음하고, 화자를 구분해 전사하고, AI 회의록까지 정리하는 로컬 우선 데스크톱 앱입니다. |
+| [mota](https://github.com/m16khb-org/mota) | 서울 버스와 지하철 도착 정보를 지도에서 확인하는 React·NestJS 웹 앱입니다. |
+| [liar-game](https://liar.m16khb.xyz) | 라이어게임 |
 
 ## 기술 스택
 

@@ -25,7 +25,7 @@ required=(
   "Infra & Ops"
   "Data & Queue"
   "Cloud & Automation"
-  "agent-harness"
+  "issueops"
   "https://bubblechat.ai"
   "https://tingle.chat"
   "백엔드"
@@ -85,15 +85,15 @@ if grep -Fq "github-profile-summary-cards.vercel.app" "$readme"; then
   fail "README.md contains profile summary image card"
 fi
 
-if ! grep -Fq "https://github.com/m16khb/agent-harness" "$readme"; then
-  fail "missing GitHub link for agent-harness"
+if ! grep -Fq "https://github.com/m16khb-org/issueops" "$readme"; then
+  fail "missing GitHub link for issueops"
 fi
 
-if ! grep -Fq "https://github.com/m16khb/galpi" "$readme"; then
+if ! grep -Fq "https://github.com/m16khb-org/galpi" "$readme"; then
   fail "missing GitHub link for galpi"
 fi
 
-if ! grep -Fq "https://github.com/m16khb/mota" "$readme"; then
+if ! grep -Fq "https://github.com/m16khb-org/mota" "$readme"; then
   fail "missing GitHub link for mota"
 fi
 
