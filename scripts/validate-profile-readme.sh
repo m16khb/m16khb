@@ -17,9 +17,8 @@ required=(
   "# m16khb"
   "에이전트 도구"
   "한국어"
-  "## 지금 관심 있는 것"
-  "## 개발 중"
-  "## 공개 프로젝트"
+  "## 참여 서비스"
+  "## 프로젝트"
   "## 기술 스택"
   "Backend & API"
   "Infra & Ops"
@@ -49,7 +48,6 @@ required=(
   "ECS"
   "Kafka"
   "BullMQ"
-  "img.shields.io"
   "Omo"
   "Rust"
   "Tauri"
@@ -60,7 +58,6 @@ required=(
   "Drizzle"
   "galpi"
   "mota"
-  "안정적으로 운영"
 )
 
 for needle in "${required[@]}"; do
