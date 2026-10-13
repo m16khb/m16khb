@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">m16khb</title>
+  <desc id="desc">백엔드, 인프라, 에이전트 도구를 만드는 m16khb의 프로필 헤더</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .panel { fill: #f6f8fa; stroke: #d0d7de; }
+    .rule { stroke: #d0d7de; }
+    .fg { fill: #1f2328; }
+    .muted { fill: #59636e; }
+    .key { fill: #1a7f37; }
+    .dot { fill: #d0d7de; }
+    .cursor { fill: #1a7f37; animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-color-scheme: dark) {
+      .panel { fill: #161b22; stroke: #30363d; }
+      .rule { stroke: #30363d; }
+      .fg { fill: #e6edf3; }
+      .muted { fill: #9198a1; }
+      .key { fill: #3fb950; }
+      .dot { fill: #30363d; }
+      .cursor { fill: #3fb950; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor { animation: none; }
+    }
+  </style>
+
+  <rect class="panel" x="1" y="1" width="958" height="298" rx="14" stroke-width="2"/>
+  <circle class="dot" cx="28" cy="26" r="6"/>
+  <circle class="dot" cx="48" cy="26" r="6"/>
+  <circle class="dot" cx="68" cy="26" r="6"/>
+  <text class="muted" x="480" y="31" font-size="13" text-anchor="middle">m16khb@m16khb.dev: ~</text>
+  <line class="rule" x1="2" y1="52" x2="958" y2="52" stroke-width="2"/>
+
+  <text x="40" y="96" font-size="18"><tspan class="key">$</tspan><tspan class="fg"> whoami</tspan></text>
+  <text x="40" y="142"><tspan class="fg" font-size="34" font-weight="700">m16khb</tspan><tspan class="muted" font-size="18" dx="20">backend · infra · agent tooling</tspan></text>
+
+  <text x="40" y="192" font-size="18"><tspan class="key">$</tspan><tspan class="fg"> ls ~/projects</tspan></text>
+  <text class="key" x="40" y="226" font-size="18" xml:space="preserve">issueops  galpi  mota  rootchat  liar-game  monty-hall</text>
+
+  <text x="40" y="270" font-size="18" class="key">$</text>
+  <rect class="cursor" x="62" y="255" width="11" height="20"/>
+</svg>

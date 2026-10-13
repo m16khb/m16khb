@@ -102,6 +102,18 @@ if ! grep -Eq '\[[*]*tingle\.chat[*]*\]\(https://tingle\.chat\)' "$readme"; then
   fail "missing hyperlink for tingle.chat"
 fi
 
+if ! grep -Fq "https://liar.m16khb.dev" "$readme"; then
+  fail "missing live link for liar-game"
+fi
+
+if grep -Fq "m16khb.xyz" "$readme"; then
+  fail "README.md links the retired m16khb.xyz domain"
+fi
+
+if ! grep -Fq "./assets/header.svg" "$readme" || ! test -s "$root/assets/header.svg"; then
+  fail "missing profile header image"
+fi
+
 extra_project_repos=(
   headroom
   claude-mem
