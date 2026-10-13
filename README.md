@@ -40,10 +40,10 @@
 
 | 프로젝트 | 소개 | 스택 |
 | --- | --- | --- |
-| [issueops](https://github.com/m16khb-org/issueops) | Codex · Claude Code · Omo · omp가 이슈부터 PR/MR 정리까지 같은 실행 계약으로 일하게 하는 CLI/MCP 하네스 | Go · MCP · SQLite |
+| [issueops](https://github.com/m16khb-org/issueops) | Codex · Claude Code · Omo · omp가 이슈 작성부터 PR/MR 정리까지 같은 절차로 작업하게 하는 CLI/MCP 도구 | Go · MCP · SQLite |
 | [galpi](https://github.com/m16khb-org/galpi) · [소개](https://m16khb.dev/galpi/) | 녹음과 전사, 화자 분리를 내 기기 안에서 처리하는 macOS · Windows 회의록 앱 | Tauri · Rust |
 | [herdr-agents-graph](https://github.com/m16khb-org/herdr-agents-graph) | 코딩 에이전트와 서브에이전트의 작업을 herdr 패널에 실시간 그래프로 보여 주는 플러그인 | Rust · ratatui |
-| [herdr-powertoys](https://github.com/m16khb-org/herdr-powertoys) | herdr 분할 패널을 균등 분할하거나 1/2 · 2/3 · 1/3 비율로 맞추는 플러그인 | Perl |
+| [herdr-powertoys](https://github.com/m16khb-org/herdr-powertoys) | herdr 패널을 같은 크기로 나누거나 1/2 · 2/3 · 1/3 비율로 맞추는 플러그인 | Perl |
 | [claude-code](https://github.com/m16khb-org/claude-code-statusline) · [codex](https://github.com/m16khb-org/codex-statusline) · [omp](https://github.com/m16khb-org/omp-statusline) statusline | 모델과 Git · PR 정보, 컨텍스트와 사용량 게이지를 두 줄로 보여 주는 상태 표시줄 | Python · TypeScript |
 
 ## 기술 스택
