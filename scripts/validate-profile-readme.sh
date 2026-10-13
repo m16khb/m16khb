@@ -117,6 +117,10 @@ if ! grep -Fq "./assets/header.svg" "$readme" || ! test -s "$root/assets/header.
   fail "missing profile header image"
 fi
 
+while IFS= read -r icon; do
+  test -s "$root/$icon" || fail "README.md references a missing icon: $icon"
+done < <(grep -oE '\./assets/icons/[A-Za-z0-9._-]+\.png' "$readme" | sort -u)
+
 for stack_line in "데이터" "Data & Queue"; do
   line="$(grep -F "$stack_line" "$readme" | head -1)"
   rest="${line#*MySQL}"

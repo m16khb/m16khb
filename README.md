@@ -22,8 +22,8 @@
 
 | 서비스 | 소개 | 담당 |
 | --- | --- | --- |
-| 버블챗 · [bubblechat.ai](https://bubblechat.ai) | (주)버블탭의 AI 캐릭터 채팅 서비스 | 백엔드 개발 · 인프라 운영 |
-| 팅글 · [tingle.chat](https://tingle.chat) | (주)버블탭의 AI 캐릭터 채팅 서비스 | 백엔드 개발 · 인프라 운영 |
+| <a href="https://bubblechat.ai"><img src="./assets/icons/bubblechat.png" width="18" height="18" alt="" /></a> **버블챗** · [bubblechat.ai](https://bubblechat.ai) | (주)버블탭의 AI 캐릭터 채팅 서비스 | 백엔드 개발 · 인프라 운영 |
+| <a href="https://tingle.chat"><img src="./assets/icons/tingle.png" width="18" height="18" alt="" /></a> **팅글** · [tingle.chat](https://tingle.chat) | (주)버블탭의 AI 로맨스 채팅 서비스 | 백엔드 개발 · 인프라 운영 |
 
 ## 사이드 프로젝트
 
@@ -31,10 +31,10 @@
 
 | 서비스 | 소개 | 스택 |
 | --- | --- | --- |
-| [루트챗](https://rootchat.me) | 대화 기록과 기억이 이어지는 AI 캐릭터 채팅 | Next.js · NestJS · pgvector · BullMQ |
-| [라이어 게임](https://liar.m16khb.dev) | 3~8명이 힌트와 투표로 라이어를 찾는 실시간 파티 게임 | Next.js · PostgreSQL · Valkey |
-| [모타](https://mota.m16khb.dev) · [GitHub](https://github.com/m16khb-org/mota) | 자주 타는 서울 버스 정류장의 도착 정보를 지도에서 확인하는 PWA | React · NestJS · Leaflet |
-| [몬티 홀 실험실](https://monty.m16khb.dev) | 문 개수를 바꿔 가며 몬티 홀 확률을 비교하는 인터랙티브 실험 | SvelteKit · Web Worker |
+| <a href="https://rootchat.me"><img src="./assets/icons/rootchat.png" width="18" height="18" alt="" /></a> [루트챗](https://rootchat.me) | 대화 기록과 기억이 이어지는 AI 캐릭터 채팅 | Next.js · NestJS · pgvector · BullMQ |
+| <a href="https://liar.m16khb.dev"><img src="./assets/icons/liar-game.png" width="18" height="18" alt="" /></a> [라이어 게임](https://liar.m16khb.dev) | 3~8명이 힌트와 투표로 라이어를 찾는 실시간 파티 게임 | Next.js · PostgreSQL · Valkey |
+| <a href="https://mota.m16khb.dev"><img src="./assets/icons/mota.png" width="18" height="18" alt="" /></a> [모타](https://mota.m16khb.dev) · [GitHub](https://github.com/m16khb-org/mota) | 자주 타는 서울 버스 정류장의 도착 정보를 지도에서 확인하는 PWA | React · NestJS · Leaflet |
+| <a href="https://monty.m16khb.dev"><img src="./assets/icons/monty-hall.png" width="18" height="18" alt="" /></a> [몬티 홀 실험실](https://monty.m16khb.dev) | 문 개수를 바꿔 가며 몬티 홀 확률을 비교하는 인터랙티브 실험 | SvelteKit · Web Worker |
 
 ### 오픈소스
 
