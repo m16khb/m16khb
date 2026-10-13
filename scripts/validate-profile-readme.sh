@@ -17,7 +17,9 @@ required=(
   "# m16khb"
   "에이전트 도구"
   "한국어"
-  "## 참여 서비스"
+  "## 이력"
+  "(주)버블탭"
+  "주식회사 페이콕"
   "## 프로젝트"
   "## 기술 스택"
   "Backend & API"
@@ -113,6 +115,14 @@ fi
 if ! grep -Fq "./assets/header.svg" "$readme" || ! test -s "$root/assets/header.svg"; then
   fail "missing profile header image"
 fi
+
+for stack_line in "데이터" "Data & Queue"; do
+  line="$(grep -F "$stack_line" "$readme" | head -1)"
+  rest="${line#*MySQL}"
+  if [[ "$rest" == "$line" || "$line" != *PostgreSQL* || "$rest" != *PostgreSQL* ]]; then
+    fail "MySQL must come before PostgreSQL in the $stack_line stack line"
+  fi
+done
 
 extra_project_repos=(
   headroom

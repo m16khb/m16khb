@@ -11,13 +11,23 @@
 
 </div>
 
-## 참여 서비스
+## 이력
 
-[bubblechat.ai](https://bubblechat.ai) · [tingle.chat](https://tingle.chat)에서 백엔드와 인프라를 담당합니다.
+| 기간 | 회사 | 업무 |
+| --- | --- | --- |
+| 2023.05 ~ 현재 | (주)버블탭 · 백엔드팀 | 웹툰과 AI 캐릭터 채팅 백엔드 개발, 2026.04부터 AWS ECS → NCP NKS 이전과 인프라 운영 |
+| 2022.06 ~ 2023.05 | 주식회사 페이콕 · 백엔드/개발팀 | 사설 NPM 저장소와 공통 라이브러리 구축, AWS ECS · Lambda 네트워크 설계 |
 
 ## 프로젝트
 
-### 웹 서비스
+### 회사 서비스
+
+| 서비스 | 소개 | 담당 |
+| --- | --- | --- |
+| [bubblechat.ai](https://bubblechat.ai) | 버블탭이 운영하는 AI 캐릭터 채팅, 버블챗 | 백엔드 · 인프라 |
+| [tingle.chat](https://tingle.chat) | 버블탭이 운영하는 AI 캐릭터 채팅, 팅글 | 백엔드 · 인프라 |
+
+### 개인 웹 서비스
 
 | 서비스 | 소개 | 스택 |
 | --- | --- | --- |
@@ -41,7 +51,7 @@
 - **백엔드** · TypeScript, NestJS, Go
 - **앱** · React, Next.js, Tauri, Rust
 - **인프라** · Docker, Kubernetes, AWS
-- **데이터** · PostgreSQL, MySQL, Kafka
+- **데이터** · MySQL, PostgreSQL, Kafka
 
 <details>
 <summary>전체 기술 스택</summary>
@@ -51,7 +61,7 @@
 | Backend & API | NestJS, Go, Gin, GORM, TypeScript, TypeORM, Swagger |
 | App & Client | React, Next.js, SvelteKit, Vite, Tauri, Rust, Bun |
 | Infra & Ops | Kubernetes, GitOps, Argo CD, n8n, Grafana |
-| Data & Queue | PostgreSQL, pgvector, MySQL, Valkey, Drizzle, Elasticsearch, Kafka, BullMQ |
+| Data & Queue | MySQL, PostgreSQL, pgvector, Valkey, Drizzle, Elasticsearch, Kafka, BullMQ |
 | Cloud & Automation | AWS, NCP, NKS, ECS, Docker, GitHub Actions |
 
 </details>
